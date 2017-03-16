@@ -1,9 +1,44 @@
+body{
+	background: #f8f8f8;
+}
+body section{
+	margin: 0 auto;
+	max-width: 500px;
+}
+/*Ibox Style*/
+
+.ibox{
+	background-color: #f8f8f8;
+}
+.ibox-title{
+	text-align: center;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+.div_shadow
+{ 
+	-webkit-box-shadow: 7px 7px 16px 0px rgba(50, 50, 50, 0.16);
+	-moz-box-shadow:    7px 7px 16px 0px rgba(50, 50, 50, 0.16);
+	box-shadow:         7px 7px 16px 0px rgba(50, 50, 50, 0.16);
+}
+
+
+/*End*/
+
+/*Navbar style*/
+.navbar{
+	border-bottom: 2px solid #2196f3;
+}
+/*End*/
+
+
+/*Form Style*/
 .form {
     background: #fff;
-    width: 700px;
+    width: 100%;
     margin: 0 auto;
-    padding: 30px;
-    box-sizing: border-box
+    box-sizing: border-box;
+    padding: 10px;
 }
 .form input {
     display: block;
@@ -37,4 +72,4 @@
     color: #fff;
     cursor: pointer
 }
-
+/*End*/
