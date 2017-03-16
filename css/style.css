@@ -1,3 +1,5 @@
+/*Base Style*/
+
 body{
 	background: #f8f8f8;
 }
@@ -5,8 +7,9 @@ body section{
 	margin: 0 auto;
 	max-width: 500px;
 }
+/*End*/
 
-/*Ibox Style*/
+/*Modulers Style*/
 
 .ibox{
 	background-color: #fff;
@@ -27,7 +30,6 @@ body section{
 	-moz-box-shadow:    7px 7px 16px 0px rgba(50, 50, 50, 0.16);
 	box-shadow:         7px 7px 16px 0px rgba(50, 50, 50, 0.16);
 }
-
 .media-options{
 	text-align: center;
 	margin-top: 15px;
@@ -39,32 +41,6 @@ body section{
 .fa-google{
 	color: #ea4335;
 }
-/*End*/
-
-/*Navbar style*/
-.navbar{
-	border-bottom: 2px solid #2196f3;
-	-webkit-box-shadow: 0px 5px 16px 0px rgba(50, 50, 50, 0.1);
-	-moz-box-shadow:    0px 5px 16px 0px rgba(50, 50, 50, 0.1);
-	box-shadow:         0px 5px 16px 0px rgba(50, 50, 50, 0.1);	
-}
-.navbar-brand{
-	color: #2196f3!important;
-}
-.nav li a:hover{
-	color: #2196f3!important;
-}
-/*End*/
-
-/*Button Style*/
-.btn-default:hover {
-    color: #333;
-    background-color: #f8f8f8;
-    border-color: #2196f3;
-}
-/*End*/
-
-/*Form Style*/
 .form {
     background: #fff;
     width: 100%;
@@ -101,12 +77,27 @@ body section{
 }
 #send:hover {
 	border: 1px solid #2196F3;
-/*    width: 50%;
-    margin: 0 auto;
-    margin-top: 30px;
-    background: #2196F3;
-    border-bottom: none;
-    color: #fff;
-    cursor: pointer;*/
+}
+.btn-default:hover {
+    color: #333;
+    background-color: #f8f8f8;
+    border-color: #2196f3;
 }
 /*End*/
+
+/*Layout style*/
+
+.navbar{
+	border-bottom: 2px solid #2196f3;
+	-webkit-box-shadow: 0px 5px 16px 0px rgba(50, 50, 50, 0.1);
+	-moz-box-shadow:    0px 5px 16px 0px rgba(50, 50, 50, 0.1);
+	box-shadow:         0px 5px 16px 0px rgba(50, 50, 50, 0.1);	
+}
+.navbar-brand{
+	color: #2196f3!important;
+}
+.nav li a:hover{
+	color: #2196f3!important;
+}
+/*End*/
+
