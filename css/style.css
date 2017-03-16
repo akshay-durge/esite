@@ -15,6 +15,7 @@ body section{
 	text-align: center;
 	padding-top: 10px;
     padding-bottom: 10px;
+    text-transform: capitalize;
 }
 .ibox h5{
 	text-align: center;
@@ -29,6 +30,8 @@ body section{
 
 .media-options{
 	text-align: center;
+	margin-top: 15px;
+    margin-bottom: 15px;
 }
 .fa-facebook{
 	color: #4867aa;
@@ -50,6 +53,13 @@ body section{
 }
 /*End*/
 
+/*Button Style*/
+.btn-default:hover {
+    color: #333;
+    background-color: #f8f8f8;
+    border-color: #2196f3;
+}
+/*End*/
 
 /*Form Style*/
 .form {
@@ -82,13 +92,18 @@ body section{
 .form input:focus + span.line {
     width: 100%
 }
-#send {
-    width: 50%;
+#send{
+	margin-top: 10px;
+	border-bottom: none;
+}
+#send:hover {
+	border: 1px solid #2196F3;
+/*    width: 50%;
     margin: 0 auto;
     margin-top: 30px;
     background: #2196F3;
     border-bottom: none;
     color: #fff;
-    cursor: pointer
+    cursor: pointer;*/
 }
 /*End*/
